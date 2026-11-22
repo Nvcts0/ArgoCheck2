@@ -71,7 +71,7 @@ dependencies {
     implementation(projects.libraryKotlin)
 
     implementation(libs.androidx.appcompat)
-    implementation(libs.androidx.constraint.layout)
+    implementation("androidx.core:core-ktx:1.15.0")
     implementation(libs.androidx.core.ktx)
 
     testImplementation(libs.junit)
